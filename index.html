@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Portfólio Pessoal</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Adham Cabral" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Adham Cabral">Adham Cabral</h1>
+
+          <p class="title">Programador de Sistemas</p>
+          <p class="title">Social Media Manager</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contatos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:adhamcabral@hotmail.com" class="contact-link">adhamcabral@hotmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefone</p>
+
+              <a href="tel:+5511930304885" class="contact-link">+55 (11) 93030-4885</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Aniversário</p>
+
+              <time datetime="2005-08-03">03 de Agosto, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localização</p>
+
+              <address>Osasco, SP, Brasil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://wa.me/5511930304885" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+
+              <li class="social-item">
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-discord"></ion-icon>
+
+                  
+                  <li class="social-item">
+                    <a href="https://steamcommunity.com/profiles/76561199079572025/" class="social-link">
+                      <ion-icon name="logo-steam"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li class="social-item">
+                    <a href="https://www.youtube.com/@adhamcabral" class="social-link">
+                      <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li class="social-item">
+                    <a href="https://www.instagram.com/o_adhamcabral/" class="social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+
+          <li class="social-item">
+            <a href="https://x.com/AdhamCabral" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+  
+                  <li class="social-item">
+                    <a href="https://www.twitch.tv/adhamcabral" class="social-link">
+                      <ion-icon name="logo-twitch"></ion-icon>
+
+
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+     
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Trajetória</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Setup</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Olá! Eu sou Adham Cabral, um programador que está sempre ansioso para aprender.
+            <br><br>
+
+            Desde os 16 anos, tenho me dedicado ao mundo da tecnologia. Minha paixão por programação e inteligência artificial me levou a desenvolver diversos projetos, incluindo automação residencial e artigos sobre as últimas novidades tecnológicas. Além de atuar como Programador de Sistemas, também trabalho como Social Media Manager. Nos meus momentos de lazer, sou músico e streamer. Meu objetivo é sempre aprender e crescer, trazendo soluções inovadoras e criativas para cada desafio.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que eu faço</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programação em Python</h4>
+
+                <p class="service-item-text">
+                  Desenvolvo projetos de automação residencial utilizando Python e outras tecnologias.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artigos sobre IA</h4>
+
+                <p class="service-item-text">
+                  Escrevo artigos sobre inteligência artificial e as últimas notícias do mundo da tecnologia.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Covers Musicais</h4>
+
+                <p class="service-item-text">
+                  Gravo covers musicais e compartilho nas minhas redes sociais.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Streamer</h4>
+
+                <p class="service-item-text">
+                  Streamo jogos no YouTube e Twitch nas horas vagas.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Frases Favoritas</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Fullmetal Alchemist" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fullmetal Alchemist</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Não há tal coisa como a perfeição. Este mundo não é perfeito e, por isso, ele é lindo."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Hunter x Hunter" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Hunter x Hunter</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Amigos podem seguir caminhos diferentes, mas não deixam de ser amigos."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Code Geass" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Code Geass</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Se o Rei não se mover, seus súditos não irão segui-lo."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Fumetsu no Anata e" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fumetsu no Anata e</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Se pudesse falar, diria que gostaria de ficar ali para sempre."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Fullmetal Alchemist" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Fullmetal Alchemist</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  "Um coração feito cheio de amor e coragem é uma alquimia que nunca falha."
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Emblemas</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #Trajetória
+      -->
+
+      <article class="resume" data-page="trajetória">
+
+        <header>
+          <h2 class="h2 article-title">Trajetória</h2>
+        </header>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiencia</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colégio Fernão Dias</h4>
+
+              <span>2022-2023</span>
+
+              <p class="timeline-text">
+                Iniciei um estágio opcional em tecnologia aos 16 anos, mesmo sem bolsa-auxílio, para aplicar na prática todo o conhecimento que havia adquirido até então.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Aparece Mídia e Tecnologia</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Após receber propostas, estagiei na Aparece, onde apliquei meus conhecimentos em C# como programador de sistemas de automação comercial. Durante esse período, refinei minhas habilidades de comunicação ao implementar e ensinar os sistemas diretamente nas empresas.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">XMACNA - Funcionários Digitais</h4>
+
+              <span>2024 - Atualidade</span>
+
+              <p class="timeline-text">
+                Como Programador de Sistemas, aprofundo-me nas tecnologias mais avançadas de IA. Além disso, como Social Media Manager, mantenho-me atualizado diariamente sobre as últimas novidades em inteligência artificial e escrevo artigos informativos sobre o tema.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <br>
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colégio Fernão Dias Pais</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Cursei o ensino médio técnico em tecnologia, onde iniciei minha jornada no mundo da programação e design, abrindo portas para diversas oportunidades.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B7Web</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Adquiri meu primeiro curso de programação, um pacote fullstack, onde me aprofundei em linguagens como PHP e JavaScript, entre outras.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Uninter</h4>
+
+              <span>2024 - Cursando</span>
+
+              <p class="timeline-text">
+                Ingressei na faculdade de Engenharia da Computação, onde continuo aprimorando meus conhecimentos e habilidades até hoje.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artigos</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Covers</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Artigos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Covers</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="artigos">
+              <a href="https://xmacna.ai/posts/satya-nadella-liderana-visionria-e-transformao-na-microsoft">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Satyanadella.jpg" alt="finance" loading="lazy"> 
+                </figure>
+
+                <h3 class="project-title">Satya Nadella</h3>
+
+                <p class="project-category">Biografia</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="covers">
+              <a href="https://soundcloud.com/adham-cabral/o-sol-vitor-kley-cover-adham-cabral?si=f19fe57ed1c4412bbf1eb50aef82e94d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">O Sol - Vitor Kley</h3>
+
+                <p class="project-category">Cover</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="covers">
+              <a href="https://soundcloud.com/adham-cabral/inseguranca-grupo-pixote-cover-adham-cabral?si=9152238823e3436f8b4e5fae83397470&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Insegurança - Grupo Pixote</h3>
+
+                <p class="project-category">Cover</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artigos">
+              <a href="https://xmacna.ai/posts/google-gemini-revoluo-na-ia-multimodal-e-contexto-longo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Google Gemini</h3>
+
+                <p class="project-category">Artigo</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artigos">
+              <a href="https://xmacna.ai/posts/microsoft-copilot-guia-completo-para-criar-imagens-grtis-com-ia">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Microsoft Copilot.</h3>
+
+                <p class="project-category">Tutorial</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="covers">
+              <a href="https://soundcloud.com/adham-cabral/calice-chico-buarque-cover-adham-cabral?si=a0418ab3645b42c9911d43943452114a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cálice - Chico Buarque</h3>
+
+                <p class="project-category">Cover</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="covers">
+              <a href="https://soundcloud.com/adham-cabral/de-todos-os-loucos-do-mundo?si=fd819afe28524ed490ee70229646f154&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">De todos os loucos do mundo - Clarice Falcão</h3>
+
+                <p class="project-category">Cover</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artigos">
+              <a href="https://xmacna.ai/posts/a-ia-criar-uma-utopia-nick-bostrom-responde">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">A IA Criará uma Utopia? </h3>
+
+                <p class="project-category">Artigo</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artigos">
+              <a href="https://xmacna.ai/posts/como-o-google-translate-usa-matemtica-e-ia-para-dominar-134-idiomas">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Google Translate</h3>
+
+                <p class="project-category">Artigo</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Setup
+      -->
+
+      <article class="blog" data-page="setup">
+
+        <header>
+          <h2 class="h2 article-title">Setup</h2>
+        </header>
+
+        
+        <section class="service">
+
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <a href="https://www.terabyteshop.com.br/produto/22846/monitor-gamer-duex-24-pol-full-hd-ips-144hz-1ms-hdmidp-dx-240zg"> <img src="./assets/images/monitor.png" alt="design icon" width="100"></a>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Monitores</h4>
+
+                <p class="service-item-text">
+                  2 monitores Duex DX240ZG 24" IPS Full HD 144HZ
+                <br>
+                  <small style="color: rgb(224, 206, 35);"> Clique na imagem para ver na loja</small>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <a href="https://www.kabum.com.br/produto/508106/headset-gamer-sem-fio-redragon-zeus-pro-7-1-driver-53mm-bluetooth-preto-h510-pro"><img src="./assets/images/headset.png" alt="Web development icon" width="100"> </a>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Headset</h4>
+
+                <p class="service-item-text">
+                  Redragon Sem Fio Zeus Pro 7.1 - H510-PRO
+                  <br>
+                    <small style="color: rgb(224, 206, 35);"> Clique na imagem para ver na loja</small>
+                  </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+               <a href="https://www.terabyteshop.com.br/produto/25610/microfone-gamer-fifine-superframe-edition-sfm1-rgb-usb-black-com-braco-articulado"> <img src="./assets/images/microfone.png" alt="mobile app icon" width="100"> </a>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Microfone</h4>
+
+                <p class="service-item-text">
+                  Fifine SuperFrame Edition SFM1
+                  <br>
+                    <small style="color: rgb(224, 206, 35);"> Clique na imagem para ver na loja</small>
+                  </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <a href="https://www.mercadolivre.com.br/teclado-logitech-k270-sfio-preto-padrao-brasil-idioma-portugus-brasil/p/MLB6360374?pdp_filters=item_id:MLB3284350933"><img src="./assets/images/teclado.png" alt="camera icon" width="100"></a>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Teclado</h4>
+
+                <p class="service-item-text">
+                  Logitech K270 S/fio
+                  <br>
+                  <small style="color: rgb(224, 206, 35);"
+                  
+                  > Clique na imagem para ver na loja</small>
+                </p>
+                </p>
+                <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <a href="https://www.mercadolivre.com.br/mouse-gamer-sem-fio-logitech-g-g305-lightspeed-preto/p/MLB11259955?pdp_filters=item_id:MLB1960486797"><img src="./assets/images/mouse.png" alt="camera icon" width="100"></a>
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Mouse</h4>
+    
+                    <p class="service-item-text">
+                      Logitech G G305 Lightspeed
+                      <br>
+                      <small style="color: rgb(224, 206, 35);"
+                      
+                      > Clique na imagem para ver na loja</small>
+                    </p>
+                    </p>
+                    <li class="service-item">
+
+                      <div class="service-icon-box">
+                        <a href="https://www.mercadolivre.com.br/controle-8bitdo-ultimate-24-ghz-com-hall-effect/p/MLB20297271?pdp_filters=item_id:MLB3541652535"><img src="./assets/images/controle.png" alt="camera icon" width="100"></a>
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Controle</h4>
+        
+                        <p class="service-item-text">
+                          8bitdo Ultimate
+                          <br>
+                          <small style="color: rgb(224, 206, 35);"
+                          
+                          > Clique na imagem para ver na loja</small>
+                        </p>
+                        </p>
+                        <li class="service-item">
+
+                          <div class="service-icon-box">
+                            <img src="./assets/images/pc.png" alt="camera icon" width="100">
+                          </div>
+            
+                          <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Peças do PC</h4>
+            
+                            <p class="service-item-text">
+                              <small>
+                              Processador: AMD Ryzen 5 5600G <br>
+                              Placa-mãe: Asus Prime B450M Gaming/BR<br>
+                              Memória RAM: DDR4 Geil Orion, 16GB (2x8GB)<br>
+                              Placa de Vídeo: AMD Radeon RX 7600<br>
+                              Armazenamento: HD Seagate Barracuda 1TB + SSD Hikvision C100, 460GB<br>
+                              Fonte: KCAS 600W<br>
+                              Gabinete: T-Dagger G28B </small>
+                            </p>
+                          </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+         
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
