@@ -726,37 +726,54 @@ main {
  * #clients 
  */
 
-.clients { margin-bottom: 15px; }
+ .clients {
+  margin-bottom: 15px;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
 
 .clients-list {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   gap: 15px;
-  margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  animation: scroll 30s linear infinite;
+  will-change: transform;
 }
 
 .clients-item {
-  min-width: 50%;
-  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 150px; /* Defina a largura que deseja para cada item */
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
+  width: 120px;
+  filter: grayscale(0.3);
+  transition: filter 0.3s ease;
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item img:hover {
+  filter: grayscale(0);
+}
 
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-300px * 6 - 90px)); /* Ajuste conforme o número de itens e gap */
+  }
+}
 
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-300px * 6 - 90px));
+  }
+}
 
 
 
@@ -1880,3 +1897,33 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.clients { margin-bottom: 15px; }
+
+.clientss-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.clientss-item {
+  width: 150px;
+  scroll-snap-align: start;
+}
+
+.clientss-item img {
+  width: 100%;
+  filter: grayscale(1);
+  transition: var(--transition-1);
+}
+
+.clientss-item img:hover { filter: grayscale(0); }
