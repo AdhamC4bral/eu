@@ -5,7 +5,16 @@
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.getElementById("carousel");
+  const items = Array.from(carousel.children);
 
+  // Duplicar os itens para permitir rotação infinita
+  items.forEach(item => {
+    const clone = item.cloneNode(true);
+    carousel.appendChild(clone);
+  });
+});
 
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
